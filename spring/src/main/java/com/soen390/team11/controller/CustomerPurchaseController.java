@@ -1,5 +1,12 @@
 package com.soen390.team11.controller;
 
+/**
+This is a Java controller class that handles various customer-related requests in a web application. 
+It provides endpoints for making a purchase, checking the status of a purchase, retrieving products, 
+retrieving customized products, retrieving orders, performing order actions, retrieving account orders, generating reports, 
+and retrieving orders for a logged-in customer.
+*/
+
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.soen390.team11.dto.CustomerPurchaseDto;
