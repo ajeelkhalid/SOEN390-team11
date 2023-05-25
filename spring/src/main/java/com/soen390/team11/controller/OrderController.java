@@ -66,11 +66,7 @@ public class OrderController {
         }
     }
 
-    /**
-     * Obtain an order
-     *
-     * @param oid The order's ID
-     * @return The order
+    /** GET THE ORDER BY ID AND RETURN IT.
      */
     @GetMapping("/{oid}")
     public ResponseEntity<?> getOrderById(@PathVariable String oid)
