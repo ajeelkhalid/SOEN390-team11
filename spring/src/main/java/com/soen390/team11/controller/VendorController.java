@@ -39,10 +39,7 @@ public class VendorController {
     }
 
     /**
-     * Gets a specific vendor
-     *
-     * @param vid The vendor's ID
-     * @return The vendor's information
+     Get Specific vendor and return the vendor information.
      */
     @GetMapping("/{vid}")
     public ResponseEntity getVendorById(@PathVariable String vid)
