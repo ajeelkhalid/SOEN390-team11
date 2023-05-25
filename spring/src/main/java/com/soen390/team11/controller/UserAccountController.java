@@ -26,10 +26,7 @@ public class UserAccountController {
 
 
     /**
-     * Mapping with the endpoint POST /account/signup
-     *
-     * @param userAccountDto The request body with a sign up request informations
-     * @return A status code
+     * Mapping with the endpoint POST /account/signup @param userAccountDto The request body with a sign up request information
      */
     @PostMapping("/signup")
     public ResponseEntity<?> signUp(@RequestBody UserAccountDto userAccountDto) {
