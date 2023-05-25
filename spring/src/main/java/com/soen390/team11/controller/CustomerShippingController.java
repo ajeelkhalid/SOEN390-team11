@@ -1,5 +1,8 @@
 package com.soen390.team11.controller;
-
+/**
+*This is a Java controller class that handles customer shipping address-related requests in a web application. 
+*It provides endpoints for creating, updating, and deleting customer shipping addresses.
+*/
 import com.soen390.team11.dto.CustomerShippingDto;
 import com.soen390.team11.service.CustomerShippingService;
 import org.springframework.http.HttpStatus;
