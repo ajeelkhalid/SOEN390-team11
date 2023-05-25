@@ -1,3 +1,10 @@
+/**
+*This is a Java controller class that handles customer payment-related requests.
+*It provides endpoints for creating, updating, and deleting customer payment information.
+*The endpoints are mapped to the appropriate HTTP methods and URL patterns.
+*The controller uses the CustomerPaymentService to perform the corresponding business logic for each request.
+*/
+
 package com.soen390.team11.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
